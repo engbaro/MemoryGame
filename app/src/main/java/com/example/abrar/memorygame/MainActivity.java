@@ -28,32 +28,32 @@ public class MainActivity extends Activity{
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        objects.add(R.drawable.cat);
-        objects.add(R.drawable.cat);
-        objects.add(R.drawable.lobster);
-        objects.add(R.drawable.lobster);
-        objects.add(R.drawable.octopus);
-        objects.add(R.drawable.octopus);
-        objects.add(R.drawable.lion);
-        objects.add(R.drawable.lion);
-        objects.add(R.drawable.elephent);
-        objects.add(R.drawable.elephent);
-        Collections.shuffle(objects);
+    //    objects.add(R.drawable.cat);
+      //  objects.add(R.drawable.cat);
+      //  objects.add(R.drawable.lobster);
+     //   objects.add(R.drawable.lobster);
+     //   objects.add(R.drawable.octopus);
+      //  objects.add(R.drawable.octopus);
+    //    objects.add(R.drawable.lion);
+      //  objects.add(R.drawable.lion);
+     //   objects.add(R.drawable.elephent);
+      //  objects.add(R.drawable.elephent);
+   //     Collections.shuffle(objects);
 
         GridView gridview = (GridView) findViewById(R.id.gridview);
         gridview.setAdapter(new ImageAdapter(this));
 
-        gridview.setOnItemClickListener(new AdapterView.OnItemClickListener() {
-            @Override
-            public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
+   //     gridview.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+     //       @Override
+       //     public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
 
-                Drawable s = new Drawable() {
-                    @Override
-                    public void draw(Canvas canvas) {
+     //           Drawable s = new Drawable() {
+       //             @Override
+         //           public void draw(Canvas canvas) {
 
-                    }
+//                    }
 
-                    @Override
+           /*         @Override
                     public void setAlpha(int alpha) {
 
                     }
@@ -81,6 +81,7 @@ public class MainActivity extends Activity{
 
             }
         });
+    */
     }
 
 
